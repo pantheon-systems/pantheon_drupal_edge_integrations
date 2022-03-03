@@ -11,13 +11,3 @@ This module runs [PHPUnit](https://phpunit.de/) tests and [PHP_CodeSniffer](http
 PHPUnit tests can be run with Composer with the `composer test:unit` command. Additional tests can be added with the same `test:` prefix and added to the `composer test` command.
 
 PHPCS linting can be run with Composer with the `composer lint:php` command. The `phpcbf` command can be used to automatically fix linting errors by running `composer lint:phpcbf`. Additional linting (e.g. ESLint) can be added with the same `lint:` prefix and added to the `composer lint` command.
-
-## Default branch name
-The default branch has been renamed to `main` from `master`. If you have a local clone, you can update it by running the following commands.
-
-```bash
-git branch -m master main
-git fetch origin
-git branch -u origin/main main
-git remote set-head origin -a
-```
