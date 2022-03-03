@@ -1,0 +1,13 @@
+services:
+  pantheon_drupal_edge_integrations.header_subscriber:
+    class: '\Drupal\pantheon_drupal_edge_integrations\EventSubscriber\HeaderEventSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
+
+  subscriber_cookie:
+    class: '\Drupal\pantheon_drupal_edge_integrations\EventSubscriber\EdgeIntegrationsCDNCookie'
+    arguments:
+      - '@request_stack'
+      - 'subscriberToken'
+    tags:
+      - { name: 'event_subscriber' }

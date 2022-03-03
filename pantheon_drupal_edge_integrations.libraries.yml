@@ -1,0 +1,19 @@
+interest_count:
+  version: 1.x
+  js:
+    js/interest_count.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    - core/js-cookie
+
+gtm_headers:
+  version: 1.x
+  js:
+    js/gtm_headers.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

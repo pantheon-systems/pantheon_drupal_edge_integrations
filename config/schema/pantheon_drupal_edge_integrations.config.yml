@@ -1,0 +1,10 @@
+pantheon_drupal_edge_integrations.config:
+  type: config_object
+  label: 'Edge Integrations CDN config'
+  mapping:
+    set_vary:
+      label: 'Set Vary header'
+      type: boolean
+    geo_default:
+      label: 'Default Audience value'
+      type: string

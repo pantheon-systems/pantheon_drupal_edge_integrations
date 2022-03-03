@@ -1,0 +1,7 @@
+pantheon_drupal_edge_integrations.config:
+  path: '/admin/config/system/pantheon_drupal_edge_integrations'
+  defaults:
+    _form: '\Drupal\pantheon_drupal_edge_integrations\Form\EdgeIntegrationsCDNConfigForm'
+    _title: 'Edge Integrations CDN configuration'
+  requirements:
+    _permission: 'configure edge integrations cdn settings'

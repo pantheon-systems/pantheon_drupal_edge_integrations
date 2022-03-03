@@ -1,0 +1,4 @@
+configure edge integrations:
+  title: 'Configure Edge Integrations CDN'
+  description: 'Who can change Edge Integrations CDN settings'
+  restrict access: TRUE

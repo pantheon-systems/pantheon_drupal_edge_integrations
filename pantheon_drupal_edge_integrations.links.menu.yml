@@ -1,0 +1,5 @@
+pantheon_drupal_edge_integrations.config:
+  title: 'Pantheon Edge CDN Configuration'
+  parent: system.admin_config_system
+  description: 'Configure Edge Integrations CDN settings'
+  route_name: pantheon_drupal_edge_integrations.config
