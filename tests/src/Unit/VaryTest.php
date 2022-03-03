@@ -55,8 +55,8 @@ class VaryTest extends UnitTestCase {
 
         // For testing when all tags are present.
         $tags['all'] = [
-            'pantheon_edge_integrations.geo',
-            'pantheon_edge_integrations.interest',
+            'pantheon_drupal_edge_integrations.geo',
+            'pantheon_drupal_edge_integrations.interest',
         ];
 
         // Create HeaderEventSubscriber object.

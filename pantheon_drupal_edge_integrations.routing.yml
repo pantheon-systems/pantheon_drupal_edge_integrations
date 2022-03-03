@@ -4,4 +4,4 @@ pantheon_drupal_edge_integrations.config:
     _form: '\Drupal\pantheon_drupal_edge_integrations\Form\EdgeIntegrationsCDNConfigForm'
     _title: 'Edge Integrations CDN configuration'
   requirements:
-    _permission: 'configure edge integrations cdn settings'
+    _permission: 'configure edge integrations'
