@@ -1,4 +1,4 @@
-name: smart_content_cdn
+name: pantheon_drupal_edge_integrations
 on: [push]
 
 jobs:
